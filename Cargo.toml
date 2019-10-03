@@ -1,13 +1,14 @@
 [package]
 name = "taskem"
 version = "0.0.0"
+license = "MIT"
 authors = ["ufoscout <ufoscout@gmail.com>"]
 edition = "2018"
 readme = "README.md"
 homepage = "https://github.com/ufoscout/taskem"
 repository = "https://github.com/ufoscout/taskem"
 #keywords = ["persistent", "persistence", "task", "job", "scheduler", "cloud", "cron", "pg", "postgres", "mysql"]
-#description = "A scheduler for periodic jobs or single tasks execution. Cloud ready and with optional tasks persistence."
+description = "A scheduler for periodic jobs or single tasks execution. Cloud ready and with optional tasks persistence."
 
 [dependencies]
 c3p0_common = "0.20"
